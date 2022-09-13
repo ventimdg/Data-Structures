@@ -1,0 +1,39 @@
+# Testing bad commands
+> add words.txt
+Not in an initialized Gitlet directory.
+<<<
+> init
+<<<
+> init
+A Gitlet version-control system already exists in the current directory.
+<<<
+> ini
+No command with that name exists.
+<<<
+> Ad
+No command with that name exists.
+<<<
+> r
+No command with that name exists.
+<<<
+> rem-bran
+No command with that name exists.
+<<<
+> asdf
+No command with that name exists.
+<<<
+> utils
+No command with that name exists.
+<<<
+> commi
+No command with that name exists.
+<<<
+> bran two
+No command with that name exists.
+<<<
+> checkou master
+No command with that name exists.
+<<<
+> lo
+No command with that name exists.
+<<<

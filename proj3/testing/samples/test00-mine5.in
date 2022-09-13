@@ -1,0 +1,27 @@
+#IIncorrect Operands
+> init
+<<<
+> add wer asdf
+Incorrect operands.
+<<<
+> rm
+Incorrect operands.
+<<<
+> find wert asdf
+Incorrect operands.
+<<<
+> merge wert asfd asdf
+Incorrect operands.
+<<<
+> reset asdf asdf asdf asdf
+Incorrect operands.
+<<<
+> rm-branch
+Incorrect operands.
+<<<
+> branch
+Incorrect operands.
+<<<
+> commit
+"Please enter a commit message."
+<<<

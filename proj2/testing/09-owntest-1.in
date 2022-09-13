@@ -1,0 +1,53 @@
+#* java -ea jump61.Main
+# Tests to see if the AI can handle playing
+# itself on multiple different board sizes
+
+manual red
+manual blue
+new
+size 7
+auto red
+auto blue
+#*move/win
+
+manual red
+manual blue
+new
+size 6
+auto red
+auto blue
+#*move/win
+
+manual red
+manual blue
+new
+size 5
+auto red
+auto blue
+#*move/win
+
+manual red
+manual blue
+new
+size 4
+auto red
+auto blue
+#*move/win
+
+manual red
+manual blue
+new
+size 3
+auto red
+auto blue
+#*move/win
+
+manual red
+manual blue
+new
+size 2
+auto red
+auto blue
+#*move/win
+
+quit

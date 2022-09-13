@@ -1,0 +1,34 @@
+#* java -ea jump61.Main
+# Tests that if the AI is blue, it should
+# win every 2x2 game
+size 2
+1 1
+auto red
+#*move/win+
+
+manual red
+manual blue
+new
+size
+auto red
+auto blue
+#*move/win+
+
+manual red
+manual blue
+new
+2 1
+auto red
+auto blue
+#*move/win+
+
+manual red
+manual blue
+new
+2 2
+auto red
+auto blue
+#*move/win+
+
+quit
+

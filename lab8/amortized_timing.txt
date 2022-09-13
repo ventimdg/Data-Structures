@@ -1,0 +1,30 @@
+Q: Is one GrowList implementation always better than the others?
+A: No, for the same reason as sort timing, there is one that is usally better, and is better for most of the cases
+but there is not one implementation that is always better
+
+Q: Why is the runtime for N insertions into a geometrically resizing list a Theta(N) operation?
+A: Because every time the array is resized, it is doubled in size, so until it is full again, the array does not
+need to be resized. The average time of not resizing unitl its full and only resizing onve it is full creates
+a case where runtine is linear
+
+Q: Why is the runtime for N insertions into a arithmetically resizing list a Theta(N^2) operation?
+A:This is a N^2 operation because every time an element is added, the array need to resize, this means that for each
+increasing time step, it will have to do n computation, and the sumation of all these runtimes accumlates to become N^2
+
+Q: How does the runtime per operation for the ArithGrowList compare to that of GeomGrowList and JavaGrowList? Specifically look at the non-accumulated plots and desribe the trends for how long each operation takes as a function of how many elements have already been inserted in the list.
+A:The runtime per operation of ArithGrowlist is significantly higher than that of the other algorithms. In the beginning, the time
+it takes compared to how many items have been inserted is incredibly high, but as more elements are added, this decereases. Arith
+has a constant spike that stays pretty tall over time while the spikes in the other algorithms decerease as time more elements
+are added.
+
+
+Q: When are there spikes in the per operation runtime graphs for each of the implementations? Do these make sense to you? Hint: some of these should and others might not. Empirical runtime can be quite messy and depends on machine specifics which will be revealed in other subsequent classes like CS61C.
+A: The arith growth has spikes, but I do not understand why it has spikes. The other two operations have spikes
+at steps 2^N and this makes sense because there should be a spike every time the array has to resize, and it resizes
+at a steps 2^N.
+
+Q: Optional: Try changing the code for GeomGrowList to resize by a different factor. How does this effect the theoretical asymptotic runtime? How does this effect the plotted runtime?
+A:
+
+Q: Optional: Try changing the code for ArithGrowList to resize by adding a different fixed number of spots in the array. How does this effect the theoretical asymptotic runtime? How does this effect the plotted runtime?
+A:

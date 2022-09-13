@@ -1,0 +1,14 @@
+#Files with same contents
+> init
+<<<
++ wug.txt wug.txt
+> add wug.txt
+<<<
+> commit "wug"
+<<<
++ wug.txt wug.txt
+> add wug.txt
+<<<
+> commit "wug2"
+No changes added to the commit.
+<<<

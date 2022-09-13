@@ -1,0 +1,22 @@
+#Not in a gitlet repository
+> add wer
+Not in an initialized Gitlet directory.
+<<<
+> rm wert
+Not in an initialized Gitlet directory.
+<<<
+> find wert
+Not in an initialized Gitlet directory.
+<<<
+> merge wert
+Not in an initialized Gitlet directory.
+<<<
+> reset wert
+Not in an initialized Gitlet directory.
+<<<
+> rm-branch wert
+Not in an initialized Gitlet directory.
+<<<
+> branch wert
+Not in an initialized Gitlet directory.
+<<<
